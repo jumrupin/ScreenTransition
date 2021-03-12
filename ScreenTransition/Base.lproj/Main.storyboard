@@ -48,6 +48,9 @@
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                     <color key="titleShadowColor" systemColor="systemBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="8Nq-tH-zah" kind="presentation" id="Jgj-YK-M5F"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -59,13 +62,24 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="93.75"/>
         </scene>
-        <!--View Controller-->
+        <!--Modal View Controller-->
         <scene sceneID="wmU-ic-sqw">
             <objects>
-                <viewController id="8Nq-tH-zah" sceneMemberID="viewController">
+                <viewController id="8Nq-tH-zah" customClass="ModalViewController" customModule="ScreenTransition" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dlh-1M-2dv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Yj-kU-jhM">
+                                <rect key="frame" x="147" y="391" width="121" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="閉じる"/>
+                                <connections>
+                                    <action selector="backButtonAction:" destination="8Nq-tH-zah" eventType="touchUpInside" id="sP5-rG-Pc8"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="mxS-QC-xbx"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                     </view>

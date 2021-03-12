@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68825E6E25FBB7980091B0EE /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68825E6D25FBB7980091B0EE /* ModalViewController.swift */; };
 		68A8A54425FBAAD000573439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A8A54325FBAAD000573439 /* AppDelegate.swift */; };
 		68A8A54625FBAAD000573439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A8A54525FBAAD000573439 /* SceneDelegate.swift */; };
 		68A8A54825FBAAD000573439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A8A54725FBAAD000573439 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68825E6D25FBB7980091B0EE /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		68A8A54025FBAAD000573439 /* ScreenTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A8A54325FBAAD000573439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68A8A54525FBAAD000573439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				68A8A54525FBAAD000573439 /* SceneDelegate.swift */,
 				68A8A54725FBAAD000573439 /* ViewController.swift */,
 				68A8A54925FBAAD000573439 /* Main.storyboard */,
+				68825E6D25FBB7980091B0EE /* ModalViewController.swift */,
 				68A8A54C25FBAAD500573439 /* Assets.xcassets */,
 				68A8A54E25FBAAD500573439 /* LaunchScreen.storyboard */,
 				68A8A55125FBAAD500573439 /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68825E6E25FBB7980091B0EE /* ModalViewController.swift in Sources */,
 				68A8A54825FBAAD000573439 /* ViewController.swift in Sources */,
 				68A8A54425FBAAD000573439 /* AppDelegate.swift in Sources */,
 				68A8A54625FBAAD000573439 /* SceneDelegate.swift in Sources */,
